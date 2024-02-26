@@ -10,7 +10,7 @@ Basta seguir os seguintes passos:
 
 <script src="caminho/arquivo.js" type="module"></script>
 
-•Na primeira linha do seu código js, Faça a importação do cdn:
+• Na primeira linha do seu código js, Faça a importação do cdn:
 
 import Janela from "https://cdn.jsdelivr.net/gh/theus-iago/prototypes/window.js";
 
