@@ -1,11 +1,11 @@
 class Janela {
-  static header_content = "Titulo";
-  static main_content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid similique fuga rerum excepturi, amet, quibusdam laudantium praesentium iure aspernatur. Doloremque amet pariatur eius dicta accusantium id consequuntur quas sequi rerum.";
+  static header_content = "Caixa de Mensagem";
+  static main_content = "Protótipo Padrão (Alert)";
   static footer_content = null;
   static color = "#1e1e1e";
   static destino = document.body;
   static area_msg = null;
-  static type = null;
+  static type = "alert";
 
   // types: confirm, prompt, alert;
 
@@ -16,10 +16,10 @@ class Janela {
     this.type = config.type;
 
     if (config.header_content == undefined) {
-      this.header_content = "Titulo";
+      this.header_content = "Caixa de Mensagem";
     }
     if (config.main_content == undefined) {
-      this.main_content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid similique fuga rerum excepturi, amet, quibusdam laudantium praesentium iure aspernatur. Doloremque amet pariatur eius dicta accusantium id consequuntur quas sequi rerum.";
+      this.main_content = "Protótipo Padrão (Alert)";
     }
     if (config.color == undefined) {
       this.color = "#1e1e1e";
