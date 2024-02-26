@@ -126,3 +126,4 @@ class Janela {
     this.destino.removeChild(divmsg);
   }
 }
+export default Janela;
