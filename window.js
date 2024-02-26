@@ -9,6 +9,7 @@ class Janela {
 
   // types: confirm, prompt, alert;
 
+
   static config(config) {
     this.header_content = config.header_content;
     this.main_content = config.main_content;
