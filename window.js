@@ -7,7 +7,7 @@ class Janela {
   static area_msg = null;
   static type = "alert";
 
-  // types: confirm, prompt, alert...
+  // types: confirm, prompt, alert;
 
 
   static config(config) {
