@@ -111,6 +111,7 @@ class Janela {
     "border: none;" +
     "border-radius: 4px;" +
     "color: #fff;" +
+    "margin: 3px;" +
     "padding: 5px 0px 5px 0px;" +
     "width: 100%;" +
     "display: flex;" +
