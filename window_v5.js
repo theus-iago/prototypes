@@ -31,7 +31,7 @@ class Janela {
   }
   static exibir() {
     this.area_msg = document.createElement("div");
-    area_msg.setAttribute("id", "area_msg");
+    this.area_msg.setAttribute("id", "area_msg");
     const style_area =
     "background-color: rgba(0,0,0,0.7);" +
     "height: 100%;" +
