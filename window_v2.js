@@ -142,7 +142,7 @@ class Janela {
       botao_footer.addEventListener("click", () => {
         this.ocultar();
       });
-    }else if(this.type == "confirm") {
+    } else if (this.type == "confirm") {
       const botao_cancel = document.createElement("button");
       const botao_ok = document.createElement("button");
       botao_cancel.innerHTML = "Cancel";
