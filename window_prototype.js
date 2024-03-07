@@ -54,11 +54,12 @@ class Janela {
     "background-color: #fff;" +
     "border-radius: 8px;" +
     "overflow: hidden;" +
-    "height: 350px;" +
-    "width: 450px;" +
+    "height: 300px;" +
+    "width: 300px;" +
     "display: flex;" +
     "align-items: center;" +
     "justify-content: center;" +
+    "flex-wrap: wrap;" +
     "flex-direction: column;";
     box_msg.setAttribute("style", style_box_msg);
     this.area_msg.prepend(box_msg);
