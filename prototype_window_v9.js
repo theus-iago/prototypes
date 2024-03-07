@@ -54,6 +54,8 @@ class Janela {
     "background-color: #fff;" +
     "border-radius: 8px;" +
     "overflow: hidden;" +
+    "height: 350px;" +
+    "width: 450px;" +
     "display: flex;" +
     "align-items: center;" +
     "justify-content: center;" +
@@ -249,6 +251,8 @@ class Janela {
          border-radius: 6px;
          margin: 5px;
          padding: 4px;
+         display: flex;
+         flex-wrap: wrap;
         `;
         bloco.setAttribute("style", style_bloco);
         main.style.alignItems = "end";
