@@ -209,7 +209,17 @@ class Janela {
         this.ocultar();
       });
     }else if(this.type == "list") {
-      header.innerHTML = "Lista";
+      const style_title = `
+       width: 100%;
+       display: flex;
+       align-items: center;
+       justify-content: start;
+      `;
+      const title = document.createElement("div");
+      title.innerHTML = "Lista";
+      title.setAttribute("id", "title");
+      title.setAttribute("style", style_title);
+      header.prepend(title);
       const msg = document.createElement("input");
       msg.setAttribute("style", style_msg);
       msg.setAttribute("type", "text");
