@@ -267,7 +267,7 @@ class Janela {
          padding: 5px;
         `;
         
-        const style_number = `
+        const style_text = `
          background-color: #fff;
          color: #000;
          height: 100%;
