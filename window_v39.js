@@ -32,8 +32,10 @@ class Janela {
   static exibir() {
     this.area_msg = document.createElement("div");
     this.area_msg.setAttribute("id", "area_msg");
-    const allItens = document.querySelector("*");
-    allItens.style.display = "static";
+    const allItens = [...document.querySelectorAll("*").style.position != ""];
+    allItens.forEach(element => {
+      element.style.display = "static";
+    }
     const style_area =
     "background-color: rgba(0,0,0,0.7);" +
     "height: 100%;" +
@@ -315,8 +317,10 @@ class Janela {
     box_msg.appendChild(footer);
   }
   static ocultar() {
-    const allItens = document.querySelector("*");
-    allItens.style.display = "";
+    const allItens = [...document.querySelectorAll("*").style.position == "static"];
+    allItens.forEach(element => {
+      element.style.display = "";
+    }
     this.destino.style.overflowY = "";
     this.destino.removeChild(this.area_msg);
   }
